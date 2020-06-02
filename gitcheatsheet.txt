@@ -32,13 +32,20 @@ git is a version control system(VCS) for tracking changes in computer files.
         //check status of working tree. you can view staged files, unstaged files, modified files.
 
     $ git commit
-        //commit changes in index
-        
+        //commit changes in index. terminal will open. 'i' for inserting text.
+          'esc' to go into the editor. 'wq' to commit the file.
+
     $ git commit -m 'type message here'
         //commit changes to master and add a commit message
 
     $ git push
         //push to remote repository
+
+    $ git remote add origin <url>
+        //add a link to a remote repository
+
+    $ git push -u origin master
+        //push the code to the remote repository specified location
 
     $ git pull
         //pull latest version of files from a remote repository
@@ -60,4 +67,16 @@ git is a version control system(VCS) for tracking changes in computer files.
 
     $ git rm --cached <file>
         //remove file to unstage
+    
+    $ git branch <name>
+        //create a branch to work in instead of the main branch
+    
+    $ git checkout <name>
+        //switch to another branch to work in. if you switch to the master 
+          the changes will not be visible.
+    $ git merge
+        //merges the branch to master. a terminal will appear like the
+          commit one.
+    
+
     
