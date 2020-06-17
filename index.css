@@ -1,18 +1,16 @@
 p{
-    margin: auto;
-    bottom: 10px;
+    
     text-align: center;
+    padding: 5px 200px 5px 200px;
+   
 }
-/* h1{
-    text-align: center;
-    margin: auto;
+
+h1{
+    padding: 1em;
+    background-color: lightgray;
+    
 }
-h2{
-    text-align: center;
-}
-h3{
-    text-align: center;
-} */
-#header{
-    text-align: center;
+html{
+    font-family: monospace;
+    font-size: large;
 }

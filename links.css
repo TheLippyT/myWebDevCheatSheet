@@ -4,4 +4,16 @@ ul{
 }
 p{
     text-align: center;
+    padding: 5px 200px 5px 200px;
+}
+h1{
+    padding: 1em;
+    background-color: lightgray;
+    
+    
+    
+}
+html{
+    font-family: monospace;
+    font-size: large;
 }
