@@ -2,15 +2,25 @@ p{
     
     text-align: center;
     padding: 5px 200px 5px 200px;
+    
    
 }
 
 h1{
     padding: 1em;
-    background-color: lightgray;
+    
     
 }
 html{
     font-family: monospace;
-    font-size: large;
+    font-size:  150%;
+    font-weight: bold;
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(red,orange);
 }
