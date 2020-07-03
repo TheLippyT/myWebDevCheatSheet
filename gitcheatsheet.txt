@@ -79,6 +79,8 @@ git is a version control system(VCS) for tracking changes in computer files.
           commit one.
     $ git-credential-store - Helper
         //stores your credentials on your device
+
+making a small change
     
 
     
