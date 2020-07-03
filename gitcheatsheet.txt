@@ -77,6 +77,8 @@ git is a version control system(VCS) for tracking changes in computer files.
     $ git merge
         //merges the branch to master. a terminal will appear like the
           commit one.
+    $ git-credential-store - Helper
+        //stores your credentials on your device
     
 
     
